@@ -1,9 +1,16 @@
-class LibraryMagazines
+#include "LibraryBase.h"
+
+using namespace std;
+
+class LibraryMagazines: public LibraryBase
 {
 private:
-    /* data */
+    int issue;
 public:
-    LibraryMagazines(/* args */);
+    LibraryMagazines();
     ~LibraryMagazines();
+
+    void setIssue(int issue);
+    int getIssue();
 };
 

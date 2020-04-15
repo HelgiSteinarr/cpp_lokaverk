@@ -1,9 +1,16 @@
-class LibraryVideos
+#include "LibraryBase.h"
+
+using namespace std;
+
+class LibraryVideos: public LibraryBase
 {
 private:
-    /* data */
+    int length;  // In minutes
 public:
-    LibraryVideos(/* args */);
+    LibraryVideos();
     ~LibraryVideos();
+
+    void setLength(int length);
+    int getLength();
 };
 

@@ -1,9 +1,16 @@
-class LibraryBooks
+#include "LibraryBase.h"
+
+using namespace std;
+
+class LibraryBooks: public LibraryBase
 {
 private:
-    /* data */
+    string author;
 public:
-    LibraryBooks(/* args */);
+    LibraryBooks();
     ~LibraryBooks();
+
+    void setAuthor(string author);
+    string getAuthor();
 };
 

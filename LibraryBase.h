@@ -10,12 +10,13 @@ private:
     string name;
 public:
     LibraryBase();
+    LibraryBase(int id, string name);
     ~LibraryBase();
 
     void setId(int id);
     int getId();
+    virtual void print();
 
     void setName(string name);
     string getName();
 };
-

@@ -8,8 +8,9 @@ private:
     int issue;
 public:
     LibraryMagazines();
+    LibraryMagazines(int id, string name, int issue);
     ~LibraryMagazines();
-
+    void print();
     void setIssue(int issue);
     int getIssue();
 };

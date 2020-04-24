@@ -8,9 +8,9 @@ private:
     string author;
 public:
     LibraryBooks();
+    LibraryBooks(int id, string name, string author);
     ~LibraryBooks();
-
+    void print();
     void setAuthor(string author);
     string getAuthor();
 };
-

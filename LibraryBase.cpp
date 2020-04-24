@@ -1,12 +1,13 @@
 #include "LibraryBase.h"
 
-LibraryBase::LibraryBase()
+LibraryBase::LibraryBase(){}   
+LibraryBase::LibraryBase(int id, string name)
 {
-}
+    this->setId(id);
+    this->setName(name);
+}   
 
-LibraryBase::~LibraryBase()
-{
-}
+LibraryBase::~LibraryBase(){}
 
 void LibraryBase::setId(int id) { this->id = id; }
 int LibraryBase::getId(){ return this->id; }

@@ -1,9 +1,9 @@
-class Bokasafn
+class Library
 {
 private:
-    /* data */
+    
 public:
-    Bokasafn(/* args */);
-    ~Bokasafn();
+    Library();
+    ~Library();
 };
 

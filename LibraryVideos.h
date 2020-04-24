@@ -8,8 +8,9 @@ private:
     int length;  // In minutes
 public:
     LibraryVideos();
+    LibraryVideos(int id, string name, int length);
     ~LibraryVideos();
-
+    void print();
     void setLength(int length);
     int getLength();
 };

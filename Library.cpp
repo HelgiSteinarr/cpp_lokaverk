@@ -1,9 +1,9 @@
 #include "Library.h"
 
-Bokasafn::Bokasafn(/* args */)
+Library::Library()
 {
 }
 
-Bokasafn::~Bokasafn()
+Library::~Library()
 {
 }

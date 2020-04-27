@@ -9,3 +9,6 @@
 * Prenta föll gerð
 * Smiðir uppfærðir
 * Gerð lista ákveðin
+#### 27. Apríl
+* Gert base destructor virtual
+* lagað orðalag á klösum (breytt í eintölu)

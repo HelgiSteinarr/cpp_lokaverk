@@ -2,14 +2,14 @@
 
 using namespace std;
 
-class LibraryMagazines: public LibraryBase
+class LibraryMagazine: public LibraryBase
 {
 private:
     int issue;
 public:
-    LibraryMagazines();
-    LibraryMagazines(int id, string name, int issue);
-    ~LibraryMagazines();
+    LibraryMagazine();
+    LibraryMagazine(int id, string name, int issue);
+    ~LibraryMagazine();
     void print();
     void setIssue(int issue);
     int getIssue();

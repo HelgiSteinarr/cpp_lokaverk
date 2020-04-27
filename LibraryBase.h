@@ -11,7 +11,7 @@ private:
 public:
     LibraryBase();
     LibraryBase(int id, string name);
-    ~LibraryBase();
+    virtual ~LibraryBase();
 
     void setId(int id);
     int getId();

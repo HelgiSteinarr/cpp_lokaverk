@@ -2,14 +2,14 @@
 
 using namespace std;
 
-class LibraryBooks: public LibraryBase
+class LibraryBook: public LibraryBase
 {
 private:
     string author;
 public:
-    LibraryBooks();
-    LibraryBooks(int id, string name, string author);
-    ~LibraryBooks();
+    LibraryBook();
+    LibraryBook(int id, string name, string author);
+    ~LibraryBook();
     void print();
     void setAuthor(string author);
     string getAuthor();

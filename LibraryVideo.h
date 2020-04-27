@@ -2,14 +2,14 @@
 
 using namespace std;
 
-class LibraryVideos: public LibraryBase
+class LibraryVideo: public LibraryBase
 {
 private:
     int length;  // In minutes
 public:
-    LibraryVideos();
-    LibraryVideos(int id, string name, int length);
-    ~LibraryVideos();
+    LibraryVideo();
+    LibraryVideo(int id, string name, int length);
+    ~LibraryVideo();
     void print();
     void setLength(int length);
     int getLength();

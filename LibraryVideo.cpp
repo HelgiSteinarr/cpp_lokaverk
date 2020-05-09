@@ -11,7 +11,7 @@ LibraryVideo::~LibraryVideo(){}
 
 void LibraryVideo::print()
 {
-    cout << "Id: " << this->getId() << ", Name: " << this->getName() << ", Length: " << this->getLength() << ((this->getLength > 1 ) ? "Minutes" : "Minute") << endl;
+    cout << "Id: " << this->getId() << ", Name: " << this->getName() << ", Length: " << this->getLength() << ((this->getLength() > 1 ) ? "Minutes" : "Minute") << endl;
 }
 
 void LibraryVideo::setLength(int length){ this->length = length; }

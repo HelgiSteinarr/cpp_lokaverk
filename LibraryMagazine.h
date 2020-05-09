@@ -1,3 +1,4 @@
+#pragma once
 #include "LibraryBase.h"
 
 using namespace std;
@@ -10,7 +11,7 @@ public:
     LibraryMagazine();
     LibraryMagazine(int id, string name, int issue);
     ~LibraryMagazine();
-    void print();
+    void print() override;
     void setIssue(int issue);
     int getIssue();
 };

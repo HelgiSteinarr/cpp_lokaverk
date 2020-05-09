@@ -12,3 +12,9 @@
 #### 27. Apríl
 * Gert base destructor virtual
 * lagað orðalag á klösum (breytt í eintölu)
+#### 8. Maí/9. Maí
+* Listi gerður
+* Add, remove, retrieve, update, printAll Föll gerð
+* Röðun eftir hvort stakið sé Bók, tímarit eða myndband
+* Notendaviðmót sem notar fyrrnefnd föll gert.
+* Skjáupptaka tekin upp

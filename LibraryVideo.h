@@ -1,3 +1,4 @@
+#pragma once
 #include "LibraryBase.h"
 
 using namespace std;
@@ -10,7 +11,7 @@ public:
     LibraryVideo();
     LibraryVideo(int id, string name, int length);
     ~LibraryVideo();
-    void print();
+    void print() override;
     void setLength(int length);
     int getLength();
 };

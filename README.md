@@ -18,3 +18,15 @@
 * Röðun eftir hvort stakið sé Bók, tímarit eða myndband
 * Notendaviðmót sem notar fyrrnefnd föll gert.
 * Skjáupptaka tekin upp
+## Skýrsla
+#### [Linkur að skjáupptöku](https://filedrop.is/z4J7I)
+#### Notkun forrits
+* add [book,video,magazine] [id] [name] [author,issue,length] - Bætir í listann.
+* remove [id] - Eyðir úr listanum eftir ID
+* retrieve [id] - Prentar út stak eftir ID
+* update [book,video,magazine] [id]* [name] [author,issue,length] - Uppfærir stak í listanum.  *Ath id þarf að vera það sama eftir* breytingu
+* print - prentar út öll stök
+
+#### Annað
+Ég ákvað að nota linked list yfir hina valkostina og einnig raðaði ég stökunum eftir hvaða "flokk" það tilheyrir.
+
